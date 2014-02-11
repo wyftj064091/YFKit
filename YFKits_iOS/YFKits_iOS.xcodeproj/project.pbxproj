@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C144ADF17BA0AB200CEDB31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C144ADE17BA0AB200CEDB31 /* Foundation.framework */; };
+		2C144AF117BA0BFE00CEDB31 /* YFNetworkURLOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C144AF017BA0BFE00CEDB31 /* YFNetworkURLOperation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2C144AD917BA0AB200CEDB31 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2C144ADB17BA0AB200CEDB31 /* libYFKits_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYFKits_iOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C144ADE17BA0AB200CEDB31 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2C144AE217BA0AB200CEDB31 /* YFKits_iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YFKits_iOS-Prefix.pch"; sourceTree = "<group>"; };
+		2C144AEF17BA0BFE00CEDB31 /* YFNetworkURLOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFNetworkURLOperation.h; sourceTree = "<group>"; };
+		2C144AF017BA0BFE00CEDB31 /* YFNetworkURLOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFNetworkURLOperation.m; sourceTree = "<group>"; };
+		2C144AF217BA0C5C00CEDB31 /* YFCancelableProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFCancelableProtocol.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C144AD817BA0AB200CEDB31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C144ADF17BA0AB200CEDB31 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C144AD217BA0AB200CEDB31 = {
+			isa = PBXGroup;
+			children = (
+				2C144AE017BA0AB200CEDB31 /* YFKits_iOS */,
+				2C144ADD17BA0AB200CEDB31 /* Frameworks */,
+				2C144ADC17BA0AB200CEDB31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C144ADC17BA0AB200CEDB31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C144ADB17BA0AB200CEDB31 /* libYFKits_iOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C144ADD17BA0AB200CEDB31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C144ADE17BA0AB200CEDB31 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C144AE017BA0AB200CEDB31 /* YFKits_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2C144AED17BA0BCF00CEDB31 /* KitsCore */,
+				2C144AF217BA0C5C00CEDB31 /* YFCancelableProtocol.h */,
+				2C144AE117BA0AB200CEDB31 /* Supporting Files */,
+			);
+			path = YFKits_iOS;
+			sourceTree = "<group>";
+		};
+		2C144AE117BA0AB200CEDB31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C144AE217BA0AB200CEDB31 /* YFKits_iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C144AED17BA0BCF00CEDB31 /* KitsCore */ = {
+			isa = PBXGroup;
+			children = (
+				2C144AEE17BA0BCF00CEDB31 /* YFNetwork */,
+			);
+			path = KitsCore;
+			sourceTree = "<group>";
+		};
+		2C144AEE17BA0BCF00CEDB31 /* YFNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				2C144AEF17BA0BFE00CEDB31 /* YFNetworkURLOperation.h */,
+				2C144AF017BA0BFE00CEDB31 /* YFNetworkURLOperation.m */,
+			);
+			path = YFNetwork;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C144ADA17BA0AB200CEDB31 /* YFKits_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C144AE917BA0AB200CEDB31 /* Build configuration list for PBXNativeTarget "YFKits_iOS" */;
+			buildPhases = (
+				2C144AD717BA0AB200CEDB31 /* Sources */,
+				2C144AD817BA0AB200CEDB31 /* Frameworks */,
+				2C144AD917BA0AB200CEDB31 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YFKits_iOS;
+			productName = YFKits_iOS;
+			productReference = 2C144ADB17BA0AB200CEDB31 /* libYFKits_iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C144AD317BA0AB200CEDB31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = YifengWu;
+			};
+			buildConfigurationList = 2C144AD617BA0AB200CEDB31 /* Build configuration list for PBXProject "YFKits_iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2C144AD217BA0AB200CEDB31;
+			productRefGroup = 2C144ADC17BA0AB200CEDB31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C144ADA17BA0AB200CEDB31 /* YFKits_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C144AD717BA0AB200CEDB31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C144AF117BA0BFE00CEDB31 /* YFNetworkURLOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2C144AE717BA0AB200CEDB31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2C144AE817BA0AB200CEDB31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C144AEA17BA0AB200CEDB31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/YFKits_iOS.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YFKits_iOS/YFKits_iOS-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2C144AEB17BA0AB200CEDB31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/YFKits_iOS.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YFKits_iOS/YFKits_iOS-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C144AD617BA0AB200CEDB31 /* Build configuration list for PBXProject "YFKits_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C144AE717BA0AB200CEDB31 /* Debug */,
+				2C144AE817BA0AB200CEDB31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C144AE917BA0AB200CEDB31 /* Build configuration list for PBXNativeTarget "YFKits_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C144AEA17BA0AB200CEDB31 /* Debug */,
+				2C144AEB17BA0AB200CEDB31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C144AD317BA0AB200CEDB31 /* Project object */;
+}
